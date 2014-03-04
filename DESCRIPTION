@@ -1,0 +1,10 @@
+Package: UCDPtools
+Type: Package
+Title: Download and clean datasets from the Uppsala Conflict Data Program (UCDP)
+Version: 1.0
+Date: 2014-03-04
+Author: Thomas Leo Scherer
+Maintainer: Thomas Leo Scherer <tscherer@princeton.edu>
+Description: The one stop shop for accessing and managing datasets from the Uppsala Conflict Data Program (UCDP).
+License: MIT + file LICENSE
+Imports: gdata, plyr, stringr
