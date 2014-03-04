@@ -32,7 +32,7 @@ getUCDP(dataset = "Armed", rawnames = FALSE, rawdata = FALSE, local.folder)
   \item{local.folder}{character, if specified, where zip files will be saved if necessary}
   \item{verbose}{logical, if FALSE it hides output comments}
 }
-\details{details}
+\details{}
 \value{Returns a single dataframe. Does not account for files with multiple dataframes (ie Categorical)}
 \references{
 \url{http://www.pcr.uu.se/research/ucdp/datasets/}
@@ -54,6 +54,6 @@ onesided <- getUCDP("One-Sided")
 }
 % Add one or more standard keywords, see file 'KEYWORDS' in the
 % R documentation directory.
-\keyword{ ~kwd1 }
-\keyword{ ~kwd2 }% __ONLY ONE__ keyword per line
+\keyword{ UCDP }
+\keyword{ dataset }% __ONLY ONE__ keyword per line
 
