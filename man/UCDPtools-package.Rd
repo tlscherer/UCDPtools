@@ -13,7 +13,7 @@ Package: \tab UCDPtools\cr
 Type: \tab Package\cr
 Version: \tab 1.0\cr
 Date: \tab 2014-01-26\cr
-License: \tab MIT + file LICENSE\cr
+License: \tab GPL-3\cr
 }
 This package uses gdata, which requires perl. Perl can be installed from http://strawberryperl.com/. 
 }
@@ -30,8 +30,8 @@ This package uses gdata, which requires perl. Perl can be installed from http://
 
 ## Download the "UCDP One-sided Violence Dataset v 1.4-2013, 1989-2012" and open the codebook.
 
-data(index)
-browseURL(index$codebook_link[index$shortname=="One-Sided"])
+data(UCDPindex)
+browseURL(UCDPindex$codebook_link[UCDPindex$shortname=="One-Sided"])
 onesided <- getUCDP("One-Sided")
 
 }

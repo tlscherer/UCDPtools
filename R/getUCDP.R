@@ -203,7 +203,7 @@ if(dataset=="MIC"){
 if(dataset=="MILC"){
   cat("MILC cannot be loaded into R at this time \n")
   cat("Access the excel file with the following command \n")
-  cat("browseURL(index$data_link[index$shortname=='MILC']) \n \n")
+  cat("browseURL(UCDPindex$data_link[UCDPindex$shortname=='MILC']) \n \n")
   # dat<-gdata::read.xls("http://www.pcr.uu.se/digitalAssets/55/55086_MILC_DATASET_VERSION_1.0_PUBLIK_1_okt_07.xls")
   
   if(rawdata==FALSE){

@@ -9,7 +9,7 @@ The one stop shop for accessing and managing datasets from the Uppsala Conflict 
 getUCDP(dataset = "Armed", rawnames = FALSE, rawdata = FALSE, local.folder)
 }
 \arguments{
-  \item{dataset}{character, specifies which UCDP dataset to load.  Must be one of the following 'shortnames' as listed in the dataset \code{index}:
+  \item{dataset}{character, specifies which UCDP dataset to load.  Must be one of the following 'shortnames' as listed in the dataset \code{UCDPindex}:
   \itemize{
   \item"Actor": Actor Dataset
   \item"Agreement": Peace Agreement Dataset

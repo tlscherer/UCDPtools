@@ -7,7 +7,7 @@ UCDP dataset index
 \description{
 Dataframe that lists UCDP datasets along with links to the website, data, and codebook for each.  Updated 3/3/2014.
 }
-\usage{data(index)}
+\usage{data(UCDPindex)}
 \format{
   A data frame with 15 observations on the following 5 variables.
   \itemize{
@@ -26,17 +26,17 @@ The main UCDP website is at \url{http://www.pcr.uu.se/research/ucdp/datasets/}.
 \references{
 }
 \examples{
-## add index to workspace
+## add UCDPindex to workspace
 
-data(index)
+data(UCDPindex)
 
 ## observe shortnames of datasets
 
-index$shortname
+UCDPindex$shortname
 
 ## open the codebook for the Armed Conflict dataset
 
-browseURL(index$codebook_link[index$shortname=="ArmedConflict"])
+browseURL(UCDPindex$codebook_link[UCDPindex$shortname=="ArmedConflict"])
 }
-\keyword{datasets}
-
+\keyword{dataset}
+\keyword{UCDP}
