@@ -23,8 +23,9 @@ Access UCDPtools using the devtools package. Note, on Windows you must have PERL
 
 ```
 library(devtools)
-install_github("tlscherer/UCDPtools")
+install_github("tlscherer/UCDPtools", dependencies=TRUE)
 library(UCDPtools)
+data(UCDPindex)
 ```
 
 Troubleshooting
